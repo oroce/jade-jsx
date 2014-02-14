@@ -1,0 +1,26 @@
+{
+  "name": "jade-jsx",
+  "version": "0.0.0",
+  "description": "jade-jsx ========",
+  "main": "lib/render.js",
+  "scripts": {
+    "test": "mocha -r should test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oroce/jade-jsx.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/oroce/jade-jsx/issues"
+  },
+  "devDependencies": {
+    "should": "~3.1.2",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "jade": "~1.1.5",
+    "constantinople": "~1.0.2"
+  }
+}
